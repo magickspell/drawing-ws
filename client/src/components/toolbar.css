@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  height: 100vh;
+  max-height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.toolbar {
+  height: 40px;
+  background: white;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  box-shadow: 0 4px 8px gray;
+  padding: 0 4px;
+}
+.toolbar__btn {
+  height: 32px;
+  width: 32px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 8px;
+  margin-right: 8px;
+  font-size: 26px;
+}
+.toolbar .undo {
+  margin-left: auto;
+}
+.toolbar:nth-child(2n) {
+  top: 40px;
+}
+.toolbar .username {
+  margin-left: auto;
+}
+
+/*# sourceMappingURL=toolbar.css.map */

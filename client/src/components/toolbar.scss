@@ -1,0 +1,35 @@
+@import "../index.scss";
+
+.toolbar {
+  height: $toolbar-height;
+  background: white;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  box-shadow: 0 4px 8px gray;
+  padding: 0 4px;
+
+  &__btn {
+    height: 32px;
+    width: 32px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 26px;
+  }
+
+  .undo {
+    margin-left: auto;
+  }
+
+  &:nth-child(2n) {
+    top: 40px;
+  }
+
+  .username {
+    margin-left: auto;
+  }
+}
